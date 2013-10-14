@@ -21,16 +21,16 @@
     - http://webdesign.about.com/od/localization/l/blhtmlcodes-cur.htm#codes
 */
 var Constants = {
-  APP_NAME: "Bitstarter", 
-  FUNDING_TARGET: 10.00,
-  FUNDING_UNIT_SYMBOL: "mBTC",
+  APP_NAME: "LoFoHero", 
+  FUNDING_TARGET: 1000000.00,
+  FUNDING_UNIT_SYMBOL: "PhP",
   FUNDING_SI_SCALE: 1000,
-  FUNDING_END_DATE: new Date("September 8, 2013"),
-  PRODUCT_NAME: "Product: Development Version",
-  PRODUCT_SHORT_DESCRIPTION: "One sentence description.",
-  TWITTER_USERNAME: "nodejs",
-  TWITTER_TWEET: "This student crowdfunder looks interesting.",
-  COINBASE_PREORDER_DATA_CODE: "13b56883764b54e6ab56fef3bcc7229c",
+  FUNDING_END_DATE: new Date("February 26, 2014"),
+  PRODUCT_NAME: "LoFoHero",
+  PRODUCT_SHORT_DESCRIPTION: "Your Lost and Found Community Portal.",
+  TWITTER_USERNAME: "LoFoHero",
+  TWITTER_TWEET: "I just backed the LoFoHero, the Lost and Found community portal. See it at http://lofohero.com",
+  COINBASE_PREORDER_DATA_CODE: "5bc68c9f0d1bf9a6de68f861cce36c7c",
   days_left: function() {
       return Math.max(Math.ceil((this.FUNDING_END_DATE - new Date()) / (1000*60*60*24)), 0);
   }
